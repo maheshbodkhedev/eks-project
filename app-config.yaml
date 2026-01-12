@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  DB_HOST: "testdb-1.cnoieoumswrr.ap-south-1.rds.amazonaws.com"
+  DB_USER: "root"
+  DB_NAME: "testdb_1"
+

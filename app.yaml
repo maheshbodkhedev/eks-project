@@ -19,3 +19,4 @@ spec:
         image: maheshbodkhedev/crud-eks:latest
         ports:
         - containerPort: 3000
+
