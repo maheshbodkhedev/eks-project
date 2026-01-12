@@ -14,9 +14,9 @@ const port = 3000;
  * (because database may not exist yet)
  */
 const db = mysql.createConnection({
-    host: process.env.DB_HOST || 'testdb-1.cnoieoumswrr.ap-south-1.rds.amazonaws.com',
-    user: process.env.DB_USER || 'root',
-    password: process.env.DB_PASSWORD || '12345678'
+    host: process.env.DB_HOST || 'testdb-5.cnoieourr.ap-sou-1.rds.amazows.com',
+    user: process.env.DB_USER || 'admin',
+    password: process.env.DB_PASSWORD || '56dsvdsv78'
 });
 
 /**
